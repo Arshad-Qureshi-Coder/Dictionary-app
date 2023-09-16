@@ -1,0 +1,66 @@
+/* .card-container {
+    background-color: azure;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    box-shadow: ;
+} */
+.navbar {
+    /* border: 1px solid black; */
+    /* background-color: rgb(232, 249, 243); */
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-name {
+    margin-left: 20px;
+    font-size: large;
+    font-family:cursive ;
+    font-weight: bold;
+    color: rgb(58, 22, 22);
+}
+
+.btn-group {
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+
+.btn-item {
+    border: none;
+    height: 30px;
+    
+    background-color: rgb(255, 255, 255);
+}
+
+.main-card--cointainer {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 500px));
+    grid-gap: 50px;
+    justify-content: space-around;
+  }
+
+.card-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 320px;
+    text-align: left;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow definition */
+    display: grid;
+    grid-template-columns: 2fr; 
+  }
+  
+  /* You can adjust the values below to customize the box shadow further */
+  /* Horizontal offset, Vertical offset, Blur radius, Spread radius, Color */
+  /* For example, you can increase the spread radius for a larger shadow */
+  
+  .card-container:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Box shadow on hover */
+  }
+  

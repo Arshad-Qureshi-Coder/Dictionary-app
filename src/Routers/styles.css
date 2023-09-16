@@ -1,0 +1,9 @@
+.navbar{
+    border: 1px solid black;
+    height: 30px;
+    background-color: black;
+}
+
+a{
+    margin-left: 10px;
+}
